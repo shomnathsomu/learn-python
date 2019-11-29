@@ -1,7 +1,16 @@
-number1 = input("Enter a number: ")
-number2 = input("Enter another age: ")
+num1 = float(input("Enter your first real number: "))
+op = input("Enter your operator: ")
+num2 = float(input("Enter your second real number: "))
 
-# result = int(number1) + int(number2)
-result = float(number1) + float(number2)
+if op == '+':
+    print(num1 + num2)
+elif op == '-':
+    print(num1 + num2)
+elif op == '*':
+    print(num1 * num2)
+elif op == '/' and num2 != 0:
+    print(num1 / num2)
+else:
+    print("Invalid input!")
 
-print(result)
+# thanksgiving to python
