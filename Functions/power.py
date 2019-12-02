@@ -1,20 +1,8 @@
-for letter in "giraffe academy":
-    print(letter)
+def raise_to_power(base, power):
+    res = 1
+    for i in range(power):
+        res = res * base
+    return res
 
-print("")
 
-states = ["Arizona", "Boston", "California"]
-for name in states:
-    print(name)
-
-print("")
-
-# use range(a) from 0 to a
-for i in range(3, 10):
-    print(i)
-
-print("")
-
-for i in range(len(states)):
-    print(states[i])
-
+print(raise_to_power(2, 31))
